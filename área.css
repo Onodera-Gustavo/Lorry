@@ -120,6 +120,7 @@ border-radius: 7px;
   left: 10%;
   position: absolute;
   font-size: 17px;
+  padding: 2%;
   
   
 }
@@ -133,6 +134,7 @@ border-radius: 7px;
   left: 50%;
   border: 2px solid #D9BBA9 ;
   font-size: 17px;
+  padding: 2%;
 }
 
 .logo img{
