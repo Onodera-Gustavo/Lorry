@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+#menu{
+    width: 100%;
+    font-family: "Fanwood Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #590C05;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+#itens{
+    font-family: "Fanwood Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #590C05;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+
+#menu > ul{
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#menu > ul > li{
+    margin-left: 5em;
+}
+
+a{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #A68263;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 1em;
+    align-content: space-around;
+}
+
+#logo{
+    width: 6em;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#retangulo{
+    width: 95%;
+    height: 0.2em;
+    background-color: #D9BBA9;
+    display: block;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Fanwood Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #590C05;
+    
+}
+
+#container > img{
+    width: 55%;
+    border-radius: 1.5%;
+    justify-self: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+#container > p{
+    margin: 0;
+    margin-left: 2.5em;
+    text-align: left;
+}
+

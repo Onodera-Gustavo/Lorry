@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+#menu{
+    width: 100%;
+    font-family: "Fanwood Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #590C05;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+#itens{
+    font-family: "Fanwood Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #590C05;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+
+#menu > ul{
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#menu > ul > li{
+    margin-left: 5em;
+}
+
+a{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #A68263;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 1em;
+    align-content: space-around;
+}
+
+#logo{
+    width: 6em;
+}
+
+#retangulo{
+    width: 95%;
+    height: 0.2em;
+    background-color: #D9BBA9;
+    display: block;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#container{
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Fanwood Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #590C05;
+    margin-bottom: 0;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5em;
+    
+}
+
+.borda{
+    width: 20em;
+    display: grid;
+}
+
+
+
+
+
+h4{
+    border: 0.05em solid #E7D5C9;
+    border-radius: 0.1em;
+    width: 10em;
+    margin-top: 1em;
+    text-align: center;
+    justify-self: center;
+    font-size: 1.5em;
+}
+
+
+.espec{
+    width: 100%;
+    margin: 0;
+    justify-items: center;
+    border: 0.15em solid #D9BBA9;
+    padding: 0.5em;
+}
+

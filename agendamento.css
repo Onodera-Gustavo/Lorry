@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#menu{
+    width: 100%;
+    font-family: "Fanwood Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #590C05;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+#itens{
+    font-family: "Fanwood Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #590C05;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+
+#menu > ul{
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#menu > ul > li{
+    margin-left: 5em;
+}
+
+a{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #A68263;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 1em;
+    align-content: space-around;
+}
+
+#logo{
+    width: 6em;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#retangulo{
+    width: 95%;
+    height: 0.2em;
+    background-color: #D9BBA9;
+    border: 0;
+}
+
+#agenda{
+    display: flex;
+    justify-content: center;
+    font-size: 10em;
+    margin-top: 0.5em;
+}
+
+#content{
+    margin-top: 5em;
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: #474747;
+    font-size: 1em;
+    margin-left: 20em;
+    
+}
+
+
+
+#spec{
+    width: 30em;
+    height: 3em;
+    border: solid 0.2em black;
+    border-radius: 0.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 0.101em;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #474747;
+}
+
+input{
+    padding-left: 1em;
+
+}
+
+input{
+    width: 30em;
+    height: 3em;
+    border: solid 0.2em black;
+    border-radius: 0.5em;
+    font-size: 0.101em;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #707070;
+}
+
+#calendario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+#calendario > img{
+    width: 30em;
+    justify-self: center;
+    margin-left: 10em;
+}
+
+#calendario > p{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #474747;
+    font-size: 1.1em;
+}
